@@ -16,12 +16,12 @@ export default async (req, res, next) => {
             });
         }
 
-        if (!user.verified) {
-            return res.status(401).json({
-                message: 'User not verified',
-                success: false
-            });
-        }
+        // if (!user.verified) {
+        //     return res.status(401).json({
+        //         message: 'User not verified',
+        //         success: false
+        //     });
+        // }
 
         const userData = {
             email: user.email,
