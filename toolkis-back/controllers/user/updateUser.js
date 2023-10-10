@@ -1,15 +1,15 @@
-import Products from "../../models/Products.js"
+import User from "../../models/User.js"
 
-const updateProduct = async(req,res,next)=> {
+const updateUser = async(req,res,next)=> {
         try {
-            let upd = await Products.findByIdAndUpdate(
+            let upd = await User.findByIdAndUpdate(
                 req.params.id,
                 req.body,
                 { new: true }
             )
             if (upd) {
                 return res.status(200).json({ response: upd,
-                message: "Product successfully updated" })
+                message: "User successfully updated" })
             } else {
                 return res.status(404).json({ response: 'not found' })
             }    
@@ -20,4 +20,4 @@ const updateProduct = async(req,res,next)=> {
 
 
 
-export default updateProduct
+export default updateUser

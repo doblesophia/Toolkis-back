@@ -2136,13 +2136,6 @@ let products = [
       "Item dimensions": "4 x 2 x 1 inches"
     }
   }
-
-
-
-
-
-
-
 ];
 
 Product.insertMany(products);
