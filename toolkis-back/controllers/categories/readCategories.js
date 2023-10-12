@@ -7,7 +7,7 @@ export default async function (req, res) {
                 success: true,
                 response: 'ok',
                 message : '/category',
-                product: category
+                category: category
         });
     } catch (error) {
       console.log(error)
