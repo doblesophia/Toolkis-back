@@ -25,6 +25,7 @@ async function createUser (req, res, next){
             success: true,
             message: "User created succesfully"
         });
+        console.log("Cuatro")
     } catch (error) {
         return res.status(400).json({
             success: false,

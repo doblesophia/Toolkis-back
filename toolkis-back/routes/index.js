@@ -3,6 +3,7 @@ import productsRouter from "../routes/products.js"
 import userRouter from "../routes/users.js"
 import categoryRouter from "./categories.js"
 import subcategoriesRouter from "./subcategories.js"
+import payments from "./payments.js"
 
 const router = express.Router();
 
@@ -15,6 +16,7 @@ router.use("/products", productsRouter)
 router.use('/auth', userRouter)
 router.use("/categories", categoryRouter)
 router.use("/subcategory", subcategoriesRouter)
+router.use("/payment",payments)
 
 
 export default router;
