@@ -1,6 +1,6 @@
 import express  from 'express';
 import createUser from '../controllers/user/createUser.js';
-import userValidator from '../validators/newRegisterValidator.js';
+import admRegisterValidator from '../validators/newAdmRegisterValidator.js';
 import validator from '../middlewares/validator.js';
 import passport from '../middlewares/passport.js';
 import signinController from '../controllers/user/signin.js'
@@ -15,12 +15,18 @@ import updateUser from '../controllers/user/updateUser.js';
 import updateUserValidator from "../validators/updateUserValidator.js"
 import deleteUser from '../controllers/user/deleteUser.js';
 import readUser from '../controllers/user/readUser.js';
+import loginValidator from '../validators/newLoginValidator.js';
+import registerValidator from '../validators/newRegisterValidator.js';
+
 
 const router = express.Router();
 
 router.get("/", readUser)
-router.post('/register', findEmail,validator(userValidator), hasheadorPassword ,createUser)
-router.post('/signin',   accountNotExist , passwordOk, generateToken, validator(userValidator), signinController)
+//adminpanel register
+router.post('/admregister', findEmail,validator(admRegisterValidator), hasheadorPassword ,createUser)
+//simple user register
+router.post('/register', findEmail,validator(registerValidator), hasheadorPassword ,createUser)
+router.post('/signin',   accountNotExist , passwordOk, generateToken, validator(loginValidator), signinController)
 router.post('/signinToken', passport.authenticate("jwt",{ session: false }), signinToken)
 router.post('/signout', passport.authenticate('jwt', {session:false} ), signout)
 router.put("/:id", validator(updateUserValidator), updateUser)
