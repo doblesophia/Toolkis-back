@@ -9,6 +9,7 @@ async function findEmail(req, res, next) {
         message: 'Email already exists',
       });
     }
+    console.log("Uno")
     next();
   } catch (error) {
     console.error(error);
