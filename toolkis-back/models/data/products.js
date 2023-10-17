@@ -684,7 +684,7 @@ let products = [
     "subcategory": "Plumbing",
     "stock": 15,
     "description": "The General Wire Spring Plunger is a versatile tool for clearing clogged drains and pipes. It creates strong suction for effective plunging, making it a must-have for every plumber.",
-    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D8bP2a6GDXDEhHMMXdLggkBLpptg4VzvRHFhvDtI9OFggs5c3mhVvNtLqqdkBY2mJkE&usqp=CAU",
+    "photo": "https://www.matildaexpress.com.ar/wp-content/uploads/2021/06/SOPAPA.png",
     "price": 15,
     "details": {
       
