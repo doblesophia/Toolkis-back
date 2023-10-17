@@ -9,8 +9,9 @@ import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
 import cors from "cors"
 import './config/database.js'
-import mongoose from 'mongoose';
+import multer  from 'multer'
 
+const upload = multer({ dest: 'uploads/'})
 const  app =  express();
 
 // view engine setup
@@ -43,6 +44,13 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.post('/workwithus', upload.single('cv'), function (req, res, next) {
+  if (!req.file) {
+    return res.status(400).send('No se proporcionó ningún archivo');
+  } console.log('File name:', req.file.originalname);
+
+  res.send('Archivo subido con éxito');
+})
 
 
 export default app;

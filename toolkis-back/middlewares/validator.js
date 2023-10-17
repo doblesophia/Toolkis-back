@@ -4,10 +4,12 @@ const validator = (schema) => (req, res, next) => {
     if(validation.error){
         return res.status(400).json({
         succses: false,
-        message : validation.error.details.map(error=>error.message)
+        message : (validation.error.details.map(error=>error.message))
 
     })
-    } return next()
+    }
+    console.log("Dos") 
+    return next()
 }
 
 

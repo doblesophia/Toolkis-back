@@ -1,6 +1,6 @@
 import joi from "joi";
 
-let registerValidator = joi.object({
+let panelRegisterValidator = joi.object({
     name: joi.string().min(4).max(15).required().messages({
         "string.empty": `Name cannot be an empty field`,
         "string.min": `Name should have a minimum length of { #limit}`,
@@ -17,13 +17,15 @@ let registerValidator = joi.object({
         "string.min": `Password should have a minimum length of { #limit}`,
         "any.required": `Password is a required field`,
     }),
-    photo: joi.string().uri().allow(null, '').messages({
+    photo: joi.string().uri().messages({
         "string.uri": "URL needs to be valid"
     }),
-    telephone: joi.number().allow(null, '').messages({
-        "number.any": "Telephone should be a valid phone number"
-    })
+    role: joi.number().max(2).min(0).messages({
+        "number.min": "Role must be 0 or higher",
+        "number.max": "Role must be 2 or lower"
+    }),
+    telephone: joi.number()
 
 })
 
-export default registerValidator
+export default panelRegisterValidator
