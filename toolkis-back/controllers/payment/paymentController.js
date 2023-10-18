@@ -15,10 +15,10 @@ const transporter = nodemailer.createTransport({
 const sendEmailToCustomer = (payer) => {
   console.log(payer, "informacion payer")
   if (payer) {
-    
+
     const mailOptions = {
       from: 'manuelpebay@gmail.com',
-      to: payer.email,
+      to: "manupebay@hotmail.com",
       subject: 'Comprobante de compra',
       text: 'Contenido del correo electrónico',
     };
@@ -55,7 +55,7 @@ export const createOrder = async (req, res) => {
       back_urls: {
         success: 'http://localhost:5173/post-payment',
       },
-      notification_url: 'https://00fc-168-197-200-34.ngrok-free.app/payment/webhook',
+      notification_url: 'https://2a0d-2803-c180-2002-63e3-79a0-6519-7a5c-136b.ngrok.io/payment/webhook',
       payer: {
         phone: { area_code: '123', number: 4567890 },
         address: { street_name: 'Calle Ejemplo', street_number: 123 },
@@ -70,7 +70,7 @@ export const createOrder = async (req, res) => {
 
     const result = await mercadopago.preferences.create(preference);
 
-    // No envíes el correo electrónico aquí
+    console.log(result);
     res.json(result.body);
   } catch (error) {
     console.error(error);
@@ -79,19 +79,24 @@ export const createOrder = async (req, res) => {
 };
 
 export const receiveWebhook = async (req, res) => {
+  console.log(req.query);
   try {
-    // Realiza la verificación y procesamiento de la notificación de compra aquí
-    const payment = req.body;
-    console.log("Webhook recibido:", payment);
+    //   // Realiza la verificación y procesamiento de la notificación de compra aquí
+    const payment = req.query;
+    //   console.log("Webhook recibido:", payment);
 
-    if (payment.action === 'payment.created') {
-      // Si el pago se ha creado, entonces puedes enviar el correo electrónico
-      await sendEmailToCustomer(payment.payer);
+    if (payment.type === 'payment') {
+      console.log(payment["data.id"], "será este el error?");
+      const data = await mercadopago.payment.findById(payment["data.id"])
+      console.log(data)
+
+      //     // Si el pago se ha creado, entonces puedes enviar el correo electrónico
+    await sendEmailToCustomer(data.body.payer);
     }
 
     res.sendStatus(200);
   } catch (error) {
     console.error(error);
-    return res.status(500).json({ message: 'Something goes wrong' });
+    return res.status(500).json({ message: error.message });
   }
 };
