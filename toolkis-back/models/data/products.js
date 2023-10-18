@@ -133,7 +133,7 @@ let products = [
     "price": 400,
     "details":{
         "PowerSupply": " Battery powered",
-        "Stroke rate": "2600 strokes per minute",
+        "Speeds": "2600 strokes per minute",
         "Voltage": "18 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",
@@ -152,7 +152,7 @@ let products = [
     ,"price": 100,
     "details": {
         "PowerSupply": " Battery powered",
-        "Stroke rate": "2400 strokes per minute",
+        "Speeds": "2400 strokes per minute",
         "Voltage": "18 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",
@@ -171,7 +171,7 @@ let products = [
     "price": 80,
     "details": {
         "PowerSupply": "Electrical cable",
-        "Stroke rate": "2500 strokes per minute",
+        "Speeds": "2500 strokes per minute",
         "Voltage": "120 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",

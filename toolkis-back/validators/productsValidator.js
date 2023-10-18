@@ -38,13 +38,13 @@ const validateProduct = joi.object({
         "number.min" : "NUMBER_TOO_SHORT",
     }),
     details: joi.object().keys({
-        'Power supply': joi.string(),
-        'Number speeds': joi.string(),
+        'PowerSupply': joi.string(),
+        'Speeds': joi.string(),
         'Voltage': joi.string(),
         'Amperage': joi.string(),
         'Material': joi.string(),
-        'Item weight': joi.string(),
-        'Item dimensions': joi.string(),
+        'ItemWeight': joi.string(),
+        'ItemDimensions': joi.string(),
     }).min(1)
 }).min(1)
 
