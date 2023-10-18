@@ -39,7 +39,7 @@ const newProductValidator = joi.object({
     }),
     details: joi.object().keys({
         'PowerSupply': joi.string(),
-        'NumberOfSpeeds': joi.string(),
+        'Speeds': joi.string(),
         'Voltage': joi.string(),
         'Amperage': joi.string(),
         'Material': joi.string(),
