@@ -502,7 +502,7 @@ let products = [
     "subcategory": "Fastening",
     "stock": 28,
     "description": "The Klein Tools Screwdriver Set is a comprehensive set of screwdrivers for various fastening tasks. It features durable tips and comfortable grips for efficient screwdriving.",
-    "photo": "https://electriciancourses4u.co.uk/wp-content/uploads/Klein-Tools-Screwdriver-Set-Product-Review-1.jpg",
+    "photo": "https://acdn.mitiendanube.com/stores/001/546/946/products/d_nq_np_2x_753977-mla51521139785_092022-f1-9c077525749b682eb416657512112007-640-0.png",
     "price": 35,
     "details": {
       
@@ -705,7 +705,7 @@ let products = [
     "subcategory": "Plumbing",
     "stock": 12,
     "description": "The Superior Tool Plumber's Snake is perfect for clearing stubborn clogs in drains and pipes. It's a flexible and durable tool that gets the job done.",
-    "photo": "https://mobileimages.lowes.com/productimages/9ac23942-a283-473f-aff4-43130612bc0d/64556241.jpg?size=pdhism",
+    "photo": "https://www.ellagar.com/SERV_ADMIN_FILES/Archivos/Imagenes/Articulos_MED/7084045_MED.jpg",
     "price": 17,
     "details": {
       
@@ -1723,7 +1723,7 @@ let products = [
     "subcategory": "Irrigation and Pool",
     "stock": 10,
     "description": "Automatic sprinkler system for efficient lawn and garden watering.",
-    "photo": "https://images.thdstatic.com/productImages/a1ff797a-abfb-40bc-8c03-da0e3d7c842b/svn/blacks-rain-bird-rotary-sprinklers-32sa-c3_600.jpg",
+    "photo": "https://acdn.mitiendanube.com/stores/198/737/products/aspersor-81441-0bae53f72eea73798b16402959917143-640-0.png",
     "price": 1300,
     "details": {
       
@@ -1743,7 +1743,7 @@ let products = [
     "subcategory": "Irrigation and Pool",
     "stock": 8,
     "description": "Robotic pool cleaner for keeping your swimming pool crystal clear.",
-    "photo": "https://marvel-b1-cdn.bc0a.com/f00000000228478/cdn.fluidrausa.com/-/media/media-database/products/cleaners/polaris-p39/p39_uw_1.jpg?h=3264&iar=0&w=3264&rev=2725695edef64bf3ad0b7d03880ac4b7",
+    "photo": "https://www.pentair.com/content/dam/extranet/nam/pentair-pool/residential/cleaners/kreepy-krauly/kreepy-krauly-sand-shark/images/kreepy-krauly-sand-shark.png.thumb.1280.1280.jpg",
     "price": 100,
     "details": {
       
@@ -1803,7 +1803,7 @@ let products = [
     "subcategory": "Irrigation and Pool",
     "stock": 9,
     "description": "Durable pool cover to protect your swimming pool from debris and leaves.",
-    "photo": "https://falabella.scene7.com/is/image/Falabella/gsc_117708239_1864943_7?wid=800&hei=800&qlt=70",
+    "photo": "https://media.diy.com/is/image/Kingfisher/bestway-circular-swimming-pool-cover-l-3-05m-x-w-3-05m~6942138951639_01c_bq?$MOB_PREV$&$width=618&$height=618",
     "price": 23,
     "details": {
       
@@ -2125,6 +2125,217 @@ let products = [
     "description": "Programmable water timer for automated garden watering.",
     "photo": "https://sp.menardc.com/main/items/media/ORBIT001/ProductXLarge/62056.jpg",
     "price": 33,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  //--------------------nuevos
+  {
+    "name": "Cordless Drill",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Drilling",
+    "stock": 30,
+    "description":
+    "The Festool cordless drill is a high-quality and versatile tool designed for professionals and DIY enthusiasts. Its ergonomic design and powerful motor make it ideal for drilling holes and driving screws into various materials, including wood, metal, and concrete. Festool is renowned for its precision and durability, ensuring that this drill will deliver consistent performance for a wide range of projects. The long-lasting lithium-ion battery provides reliable cordless operation, allowing users to work without limitations. Whether you're constructing intricate furniture or handling demanding construction tasks, the Festool cordless drill is the perfect choice.",
+    "photo": "https://assets.leevalley.com/Size4/10090/zc576439-festool-c-18-cordless-drill-basic-f-0001.jpg",
+    "price": 150,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Circular Saw",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Cutting",
+    "stock": 25,
+    "description":
+    "The Festool circular saw is a precision cutting tool designed for professional woodworkers and craftsmen. Its powerful motor and sharp blade enable accurate and efficient cuts in various wood materials. The saw features advanced dust extraction technology, keeping the workspace clean and enhancing visibility during cutting tasks. Festool's commitment to quality is evident in this saw's construction, ensuring durability and longevity. Whether you're working on carpentry projects or fine woodworking, the Festool circular saw delivers unmatched performance and reliability.",
+    "photo": "https://img.misterworker.com/en-us/46655-thickbox_default/circular-saw-hk-85-eb-plus-1900w.jpg",
+    "price": 250,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Random Orbital Sander",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Sanding",
+    "stock": 20,
+    "description":
+    "The Festool random orbital sander is a high-performance sanding tool suitable for woodworking, metalworking, and automotive applications. Its innovative design ensures a swirl-free finish on various surfaces. With variable speed control and efficient dust extraction, this sander provides smooth operation and a cleaner workspace. Festool's precision engineering guarantees optimal sanding results, making it a top choice for professionals and hobbyists alike.",
+    "photo": "https://www.highlandwoodworking.com/images/products/detail/724702d.jpg",
+    "price": 180,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Track Saw",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Cutting",
+    "stock": 15,
+    "description":
+    "The Festool track saw is a versatile and precise cutting tool designed for making straight and accurate cuts in various materials. Its guide rail system ensures stability and eliminates the need for additional measuring and marking. With a powerful motor and a sharp blade, this saw delivers splinter-free cuts in wood, laminate, and other sheet materials. Festool's track saw is a favorite among carpenters and DIY enthusiasts for its ease of use and exceptional results.",
+    "photo": "https://m.media-amazon.com/images/I/71HJHVR7JFL._AC_UF894,1000_QL80_.jpg",
+    "price": 350,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Router",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Routing",
+    "stock": 18,
+    "description":
+    "The Festool router is a high-performance woodworking tool suitable for a wide range of routing tasks. Its powerful motor and precision collets allow for clean and accurate cuts, shaping edges, and creating intricate designs. With adjustable speed and depth settings, this router provides versatility for various applications. Festool's attention to detail and ergonomic design make this router a top choice for professionals and woodworking enthusiasts.",
+    "photo": "https://www.highlandwoodworking.com/ProductImages/festool/Router/727637-01d.jpg",
+    "price": 280,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Dust Extractor",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Dust Collection",
+    "stock": 12,
+    "description":
+    "The Festool dust extractor is a powerful and efficient dust collection system designed to keep the workspace clean and safe. It features a high suction capacity and HEPA filtration, capturing fine dust particles and ensuring a healthier working environment. With automatic tool activation and adjustable suction control, this extractor is compatible with various power tools, enhancing their performance and extending their lifespan. Festool's dust extractor is a must-have for professionals who prioritize cleanliness and air quality in their workshops.",
+    "photo": "https://m.media-amazon.com/images/I/81Em5m2pFkL.jpg",
+    "price": 400,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Compound Miter Saw",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Cutting",
+    "stock": 10,
+    "description":
+    "The Festool compound miter saw is a precision cutting tool designed for angled and beveled cuts in various materials. Its dual bevel capability allows for complex cuts, making it an essential tool for trim work, furniture making, and framing. The saw features a laser guide for accuracy and a dust collection system to maintain a clean workspace. Festool's miter saw combines power and precision, ensuring seamless and professional results for woodworking projects.",
+    "photo": "https://m.media-amazon.com/images/I/6124UYl-lbS.jpg",
+    "price": 550,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Rotary Hammer Drill",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Drilling",
+    "stock": 8,
+    "description":
+    "The Festool rotary hammer drill is a heavy-duty drilling and chiseling tool designed for masonry and concrete applications. Its powerful motor and pneumatic hammering action deliver efficient drilling and chiseling performance. The drill features an anti-vibration system for comfortable use and a variable speed trigger for precise control. Festool's rotary hammer drill is ideal for professionals in construction and renovation projects, ensuring fast and accurate drilling in tough materials.",
+    "photo": "https://www.kelvinpowertools.com/img/shp/FES-BHC18Li-BASIC1.jpg",
+    "price": 650,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Domino Joiner",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Joinery",
+    "stock": 6,
+    "description":
+    "The Festool Domino joiner is a revolutionary tool for creating strong and precise mortise and tenon joints. It uses specialized tenons and an oscillating cutter to create perfect joints quickly and easily. The joiner features adjustable mortise width and depth, allowing for customization according to project requirements. Festool's Domino joiner is a favorite among cabinetmakers and woodworkers for its speed, accuracy, and versatility in joinery work.",
+    "photo": "https://m.media-amazon.com/images/I/61AImhWewIL.jpg",
+    "price": 900,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Router Table",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Routing",
+    "stock": 5,
+    "description":
+    "The Festool router table provides a stable and versatile platform for woodworking tasks that require precision routing. It features a large work surface, adjustable fence, and multiple T-slots for securing workpieces and accessories. The table is compatible with Festool routers and many other router brands, offering flexibility for various applications. Festool's router table is a valuable addition to any woodworking workshop, enhancing accuracy and safety in routing operations.",
+    "photo": "https://assets.leevalley.com/Size4/10100/ZTP00112-cms-ge-router-table-f-01-r.jpg",
+    "price": 400,
     "details": {
       
       "PowerSupply": "Battery or electric",
