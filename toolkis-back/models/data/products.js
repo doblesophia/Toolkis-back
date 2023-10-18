@@ -14,13 +14,13 @@ let products = [
     "photo":"https://cdn.mscdirect.com/global/images/ProductImages/7136229-24.jpg",
     "price": 100,
     "details": {
-        "Power supply": "Battery powered",
-        "Number of speeds": "1500 rpm",
+        "PowerSupply": "Battery powered",
+        "Speeds": "1500 rpm",
         "Voltage": "20 volts",
         "Amperage": "1.3 Amps",
         "Material": "Steel",
-        "Item weight":"3.64 pound",
-        "Item dimensions": "13.88 x 9.88 x 4.25 inches" 
+        "ItemWeight":"3.64 pound",
+        "ItemDimensions": "13.88 x 9.88 x 4.25 inches" 
       }
   },
   {
@@ -35,13 +35,13 @@ let products = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2FKVk3L8CdBLu8QirmgkJgX6a52_RXwHNjTigvKW1QD6v3kxKx6srxaxlTExk9YEuhfc&usqp=CAU",
       "price" : 120,
 "details": {
-  "Power supply": "Battery powered",
-  "Number of speeds": "1300 rpm",
+  "PowerSupply": "Battery powered",
+  "Speeds": "1300 rpm",
   "Voltage": "20 volts",
   "Amperage": "1.3 Amps",
   "Material": "Steel",
-  "Item weight":"4.13 pound",
-  "Item dimensions": "13.88 x 7.88 x 5.25 inches" 
+  "ItemWeight":"4.13 pound",
+  "ItemDimensions": "13.88 x 7.88 x 5.25 inches" 
 }  },
   {
     "name": "Cordless Drill",
@@ -55,13 +55,13 @@ let products = [
       "https://www.gigatools.ph/cdn/shop/products/gsr_180_shopify.jpg?v=1587399374",
       "price": 150,
       "details": {
-        "Power supply": "Battery powered",
-        "Number of speeds": "1400 rpm",
+        "PowerSupply": "Battery powered",
+        "Speeds": "1400 rpm",
         "Voltage": "20 volts",
         "Amperage": "1.3 Amps",
         "Material": "Steel",
-        "Item weight":"3 pound",
-        "Item dimensions": "12.85 x 8 x 4.25 inches" 
+        "ItemWeight":"3 pound",
+        "ItemDimensions": "12.85 x 8 x 4.25 inches" 
       }
   },
   {
@@ -74,13 +74,13 @@ let products = [
     "photo": "https://images.thdstatic.com/productImages/97d1ac60-e061-4bed-8b6c-2aff79a4e840/svn/milwaukee-circular-saws-2630-20-64_600.jpg"
     ,"price": 200,
     "details":{
-        "Power supply": "Battery powered",
-        "Number of speeds": "3500 rpm",
+        "PowerSupply": "Battery powered",
+        "Speeds": "3500 rpm",
         "Voltage": "18 volts",
         "Amperage": "15 Amps",
         "Material": "Steel",
-        "Item weight":"3.81 kg",
-        "Item dimensions": "12.25 x 8.5 x 8 inches" 
+        "ItemWeight":"3.81 kg",
+        "ItemDimensions": "12.25 x 8.5 x 8 inches" 
   }
 },
   {
@@ -93,13 +93,13 @@ let products = [
     "photo": "https://cdn2.ridgid.com/resources/images/7f8d5258-0dd2-4198-9b12-443b7f8ac2f2",
     "price": 250,
     "details": {
-      "Power supply": "Battery powered",
-        "Number of speeds": "3000 rpm",
+      "PowerSupply": "Battery powered",
+        "Speeds": "3000 rpm",
         "Voltage": "18 volts",
         "Amperage": "15 Amps",
         "Material": "Steel",
-        "Item weight":"3.90 kg",
-        "Item dimensions": "15.32 x 8.98 x 9.14 inches"
+        "ItemWeight":"3.90 kg",
+        "ItemDimensions": "15.32 x 8.98 x 9.14 inches"
     }
   },
   {
@@ -112,13 +112,13 @@ let products = [
     "photo": "https://media.screwfix.com/is/image/ae235/245PF_P",
     "price": 300,
     "details":{
-        "Power supply": "1500 w",
-        "Number of speeds": "3500 rpm",
+        "PowerSupply": "1500 w",
+        "Speeds": "3500 rpm",
         "Voltage": "18 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",
-        "Item weight":"4.80 kg",
-        "Item dimensions": "12.25 x 8.5 x 8 inches"
+        "ItemWeight":"4.80 kg",
+        "ItemDimensions": "12.25 x 8.5 x 8 inches"
     }
   },
 
@@ -132,13 +132,13 @@ let products = [
     "photo": "https://dam-assets.apps.travisperkins.group/oz8y6l0/GPID_1100688340_IMG_00.jpg?width=450&height=300",
     "price": 400,
     "details":{
-        "Power supply": " Battery powered",
+        "PowerSupply": " Battery powered",
         "Stroke rate": "2600 strokes per minute",
         "Voltage": "18 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",
-        "Item weight":"3.1 kg",
-        "Item dimensions": "455 x 91 x 156 mm"
+        "ItemWeight":"3.1 kg",
+        "ItemDimensions": "455 x 91 x 156 mm"
     }
   },
   {
@@ -151,13 +151,13 @@ let products = [
     "photo": "https://media.diy.com/is/image/Kingfisher/ryobi-one-18v-cordless-reciprocating-saw-rrs1801m-bare~4892210118707_01bq?$MOB_PREV$&$width=768&$height=768"
     ,"price": 100,
     "details": {
-        "Power supply": " Battery powered",
+        "PowerSupply": " Battery powered",
         "Stroke rate": "2400 strokes per minute",
         "Voltage": "18 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",
-        "Item weight":"1.8 kg",
-        "Item dimensions": "17.91 x 6.77 x 3.46 inches"
+        "ItemWeight":"1.8 kg",
+        "ItemDimensions": "17.91 x 6.77 x 3.46 inches"
     }
   },
   {
@@ -170,13 +170,13 @@ let products = [
     "photo": "https://i5.walmartimages.com/asr/acec749f-db20-4b23-a5d3-48de9962f0cf_1.24dfe65a582b844970abd940e8f0c25f.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
     "price": 80,
     "details": {
-        "Power supply": "Electrical cable",
+        "PowerSupply": "Electrical cable",
         "Stroke rate": "2500 strokes per minute",
         "Voltage": "120 volts",
         "Amperage": "13 Amps",
         "Material": "Steel",
-        "Item weight":"9 pounds",
-        "Item dimensions": "19.7 x 3.6 x 8 inches"
+        "ItemWeight":"9 pounds",
+        "ItemDimensions": "19.7 x 3.6 x 8 inches"
     }
   },
   {
@@ -189,13 +189,13 @@ let products = [
     "photo": "https://m.media-amazon.com/images/I/71N99TZfDTL.jpg",
     "price": 70,
     "details": {
-        "Power supply": " Battery powered",
-        "Number of speeds": "12000 rpm",
+        "PowerSupply": " Battery powered",
+        "Speeds": "12000 rpm",
         "Voltage": "20 volts",
         "Amperage": "20 Amps",
         "Material": "Steel",
-        "Item weight":"4 kg",
-        "Item dimensions": "9.84 x 6.3 x 8.07 inches"
+        "ItemWeight":"4 kg",
+        "ItemDimensions": "9.84 x 6.3 x 8.07 inches"
     }
   },
   {
@@ -208,13 +208,13 @@ let products = [
     "photo": "https://m.media-amazon.com/images/I/71U8G0kbNKL._AC_UF894,1000_QL80_.jpg",
     "price": 70,
     "details":{
-        "Power supply": "Electrical cable",
-        "Number of speeds": "12000 rpm",
+        "PowerSupply": "Electrical cable",
+        "Speeds": "12000 rpm",
         "Voltage": "20 volts",
         "Amperage": "3 Amps",
         "Material": "Steel",
-        "Item weight":"2.9 pounds",
-        "Item dimensions": "10.13 x 5.5 x 5.75 inches"
+        "ItemWeight":"2.9 pounds",
+        "ItemDimensions": "10.13 x 5.5 x 5.75 inches"
     }
   },
   {
@@ -227,13 +227,13 @@ let products = [
     "photo": "https://cdn.hoffmann-group.com/derivatives/8481/jpg_1200/jpg_1200_b077321_ex150e.jpg",
     "price": 130,
     "details":{
-      "Power supply": "Electrical cable",
-      "Number of speeds": "15000 rpm",
+      "PowerSupply": "Electrical cable",
+      "Speeds": "15000 rpm",
       "Voltage": "20 volts",
       "Amperage": "3 Amps",
       "Material": "Steel",
-      "Item weight":"1.5 kg",
-      "Item dimensions": "10.13 x 5.5 x 5.75 inches"
+      "ItemWeight":"1.5 kg",
+      "ItemDimensions": "10.13 x 5.5 x 5.75 inches"
     }
   },
 
@@ -246,13 +246,13 @@ let products = [
     "description": "The Bosch Drilling Machine is a reliable tool for all your drilling needs. It offers precision and power, making it ideal for drilling holes in various materials, from wood to metal. Whether you're a professional contractor or a DIY enthusiast, Bosch ensures efficient drilling performance.",
     "photo": "https://www.liontoolsmart.com/cdn/shop/products/BOSCH-IMPACT-DRILL-GSB-501-13-MM-1.jpg?v=1610364590",
     "price": 150,
-    "details": {"Power supply": "Electrical cable",
-    "Number of speeds": "3",
+    "details": {"PowerSupply": "Electrical cable",
+    "Speeds": "3",
     "Voltage": "120 volts",
     "Amperage": "8.5 Amps",
     "Material": "Plastic",
-    "Item weight":"6.9 pounds",
-    "Item dimensions": "17.4 x 3.5 x 8.5 inches"
+    "ItemWeight":"6.9 pounds",
+    "ItemDimensions": "17.4 x 3.5 x 8.5 inches"
   }},
   {
     "name": "Drill Press",
@@ -264,13 +264,13 @@ let products = [
     "photo": "https://images.thdstatic.com/productImages/fcdc4ccc-9729-435e-a7d4-10911c871cb3/svn/dewalt-specialty-power-tools-dcd1623b-a0_600.jpg"
     ,"price": 350,
     "details": {
-      "Power supply": "Electrical cable",
-      "Number of speeds": "450 rpm",
+      "PowerSupply": "Electrical cable",
+      "Speeds": "450 rpm",
       "Voltage": "240 volts",
       "Amperage": "10 Amps",
       "Material": "Mixture",
-      "Item weight":"33 pounds",
-      "Item dimensions": "22.44 x 6.5 x 19.29 inches"
+      "ItemWeight":"33 pounds",
+      "ItemDimensions": "22.44 x 6.5 x 19.29 inches"
   }
   },
   {
@@ -283,13 +283,13 @@ let products = [
     "photo": "https://mobileimages.lowes.com/productimages/b5c726ad-199d-4ff7-82dd-709f62cbe862/50141926.jpg?size=pdhism",
     "price": 2000,
     "details": {
-      "Power supply": "Lithium-ion battery",
-      "Number of speeds": 5,
+      "PowerSupply": "Lithium-ion battery",
+      "Speeds": 5,
       "Voltage": "18V or 20V",
       "Amperage": "20A or 40A",
       "Material": "Aluminum",
-      "Item weight": "5 lbs",
-      "Item dimensions": "12 x 8 x 6"
+      "ItemWeight": "5 lbs",
+      "ItemDimensions": "12 x 8 x 6"
   }
   },
   {
@@ -303,13 +303,13 @@ let products = [
     "price": 3500,
     "details": {
       
-        "Power supply": "Single-phase",
-        "Number of speeds": "1-10",
+        "PowerSupply": "Single-phase",
+        "Speeds": "1-10",
         "Voltage": "230V",
         "Amperage": "200A",
         "Material": "Steel",
-        "Item weight": "100",
-        "Item dimensions": "36 x 24 x 18 inches"
+        "ItemWeight": "100",
+        "ItemDimensions": "36 x 24 x 18 inches"
       
     }
   },
@@ -325,13 +325,13 @@ let products = [
     "price": 300,
     "details":{
       
-        "Power supply": "Oxy-acetylene",
-        "Number of speeds":  "1",
+        "PowerSupply": "Oxy-acetylene",
+        "Speeds":  "1",
         "Voltage": "N/A",
         "Amperage": "100A",
         "Material": "Brass",
-        "Item weight": "1",
-        "Item dimensions": "12 x 4  x 2 inches"
+        "ItemWeight": "1",
+        "ItemDimensions": "12 x 4  x 2 inches"
       
     }
   },
@@ -345,13 +345,13 @@ let products = [
     "photo": "https://5.imimg.com/data5/SELLER/Default/2021/11/XN/CT/QK/3902076/heavy-duty-pipe-wrench.jpg",
     "price": 30,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Ductile iron",
-      "Item weight": "2 lbs",
-      "Item dimensions": "10 x 6 x 4 inches"
+      "ItemWeight": "2 lbs",
+      "ItemDimensions": "10 x 6 x 4 inches"
       }
   },
 
@@ -365,13 +365,13 @@ let products = [
     "photo": "https://www.cutwithlenox.com/NAG/PRODUCT/IMAGES/HIRES/12121S1/12121S1_1.jpg?resize=530x530",
     "price": 70,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "2",
-      "Item dimensions": "12 x 6 x 4 inches"
+      "ItemWeight": "2",
+      "ItemDimensions": "12 x 6 x 4 inches"
     }
   },
 
@@ -385,13 +385,13 @@ let products = [
     "photo": "https://cdn.aws.toolstation.com/images/141020-UK/800/58335.jpg",
     "price": 35,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "2",
-      "Item dimensions": "12 x 6 x 4 inches"
+      "ItemWeight": "2",
+      "ItemDimensions": "12 x 6 x 4 inches"
     }
   },
   {
@@ -405,13 +405,13 @@ let products = [
     "price": 30,
     "details": {
 
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "2.5 lbs.",
-      "Item dimensions": "11 x 6 x 4 inches"
+      "ItemWeight": "2.5 lbs.",
+      "ItemDimensions": "11 x 6 x 4 inches"
     }
   },
   {
@@ -425,13 +425,13 @@ let products = [
     "price": 10,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "1.5 lbs.",
-      "Item dimensions": "10 x 5 x 3 inches"
+      "ItemWeight": "1.5 lbs.",
+      "ItemDimensions": "10 x 5 x 3 inches"
     }
   },
 
@@ -446,13 +446,13 @@ let products = [
     "price": 15,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic and metal",
-      "Item weight": "0.5 lbs.",
-      "Item dimensions": "6 x 2 x 1 inches"
+      "ItemWeight": "0.5 lbs.",
+      "ItemDimensions": "6 x 2 x 1 inches"
     }
   },
   {
@@ -466,13 +466,13 @@ let products = [
     "price": 25,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Metal and plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "12 x 4 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "12 x 4 x 2 inches"
     }
   },
   {
@@ -486,13 +486,13 @@ let products = [
     "price": 25,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "10 x 6 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "10 x 6 x 2 inches"
     }
   },
   {
@@ -502,17 +502,17 @@ let products = [
     "subcategory": "Fastening",
     "stock": 28,
     "description": "The Klein Tools Screwdriver Set is a comprehensive set of screwdrivers for various fastening tasks. It features durable tips and comfortable grips for efficient screwdriving.",
-    "photo": "https://electriciancourses4u.co.uk/wp-content/uploads/Klein-Tools-Screwdriver-Set-Product-Review-1.jpg",
+    "photo": "https://acdn.mitiendanube.com/stores/001/546/946/products/d_nq_np_2x_753977-mla51521139785_092022-f1-9c077525749b682eb416657512112007-640-0.png",
     "price": 35,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1.5 lbs.",
-      "Item dimensions": "12 x 8 x 4 inches"
+      "ItemWeight": "1.5 lbs.",
+      "ItemDimensions": "12 x 8 x 4 inches"
     }
   },
   {
@@ -526,13 +526,13 @@ let products = [
     "price": 25,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1",
       "Voltage": "N/A (if electric)" ,
       "Amperage": "N/A (if electric)" ,
       "Material": "Metal and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "10 x 5 x 3 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "10 x 5 x 3 inches"
     }
   },
   {
@@ -545,13 +545,13 @@ let products = [
     "photo": "https://www.irwintools.com/NAG/PRODUCT/IMAGES/HIRES/225134/225134_P1.jpg?resize=530x530",
     "price": 13,
     "details":  {
-    "Power supply": "Manual",
-    "Number of speeds": "1",
+    "PowerSupply": "Manual",
+    "Speeds": "1",
     "Voltage": "N/A",
     "Amperage": "N/A",
     "Material": "Steel and plastic",
-    "Item weight": "1-5 lbs.",
-    "Item dimensions": "6 x 4 x 2 inches"
+    "ItemWeight": "1-5 lbs.",
+    "ItemDimensions": "6 x 4 x 2 inches"
   }
 },
   {
@@ -565,13 +565,13 @@ let products = [
     "price": 10,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Metal and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 2 inches"
     }
   },
   {
@@ -586,13 +586,13 @@ let products = [
 ,
 "details": {
   
-  "Power supply": "Manual",
-  "Number of speeds": "1",
+  "PowerSupply": "Manual",
+  "Speeds": "1",
   "Voltage": "N/A",
   "Amperage": "N/A",
   "Material": "Aluminum and plastic",
-  "Item weight": "1-2 lbs.",
-  "Item dimensions": "12 x 3 x 2 inches"
+  "ItemWeight": "1-2 lbs.",
+  "ItemDimensions": "12 x 3 x 2 inches"
 }
   },
   {
@@ -606,13 +606,13 @@ let products = [
     "price": 180,
     "details": {
       
-      "Power supply": "Manual or digital",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or digital",
+      "Speeds": "1",
       "Voltage": "N/A (if digital)",
       "Amperage": "N/A (if digital)",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -626,13 +626,13 @@ let products = [
     "price": 33,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "8 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "8 x 4 x 2 inches"
     }
   },
   {
@@ -646,13 +646,13 @@ let products = [
     "price": 34,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -667,13 +667,13 @@ let products = [
     ,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Chrome vanadium steel",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "8 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "8 x 4 x 2 inches"
     }
   },
 
@@ -688,13 +688,13 @@ let products = [
     "price": 15,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
 
@@ -705,17 +705,17 @@ let products = [
     "subcategory": "Plumbing",
     "stock": 12,
     "description": "The Superior Tool Plumber's Snake is perfect for clearing stubborn clogs in drains and pipes. It's a flexible and durable tool that gets the job done.",
-    "photo": "https://mobileimages.lowes.com/productimages/9ac23942-a283-473f-aff4-43130612bc0d/64556241.jpg?size=pdhism",
+    "photo": "https://www.ellagar.com/SERV_ADMIN_FILES/Archivos/Imagenes/Articulos_MED/7084045_MED.jpg",
     "price": 17,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "2-3 lbs.",
-      "Item dimensions": "36 x 12 x 6 inches"
+      "ItemWeight": "2-3 lbs.",
+      "ItemDimensions": "36 x 12 x 6 inches"
     }
   },
   {
@@ -729,13 +729,13 @@ let products = [
     "price": 18,
     "details": {
 
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Ductile iron",
-      "Item weight": "2-3 lbs.",
-      "Item dimensions": "10 x 6 x 4 inches"
+      "ItemWeight": "2-3 lbs.",
+      "ItemDimensions": "10 x 6 x 4 inches"
     }
   },
  
@@ -750,13 +750,13 @@ let products = [
     "price": 700,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "10A",
       "Material": "Steel and plastic",
-      "Item weight": "20-30 lbs.",
-      "Item dimensions": "18 x 12 x 6 inches"
+      "ItemWeight": "20-30 lbs.",
+      "ItemDimensions": "18 x 12 x 6 inches"
     }
   },
   {
@@ -770,13 +770,13 @@ let products = [
     "price": 17,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1",
       "Voltage": "N/A (if electric)",
       "Amperage": "N/A (if electric)",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 2 inches"
     }
   },
   {
@@ -789,13 +789,13 @@ let products = [
     "photo": "https://cdn11.bigcommerce.com/s-9t4wk8/images/stencil/2000x2000/products/28449/61707/New_Cobolts__34008.1592846043.jpg?c=4",
     "price": 75,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Chrome vanadium steel",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "8 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "8 x 4 x 2 inches"
     }
   },
   {
@@ -808,13 +808,13 @@ let products = [
     "photo": "https://m.media-amazon.com/images/I/51lGgSMx9ZL._AC_UF1000,1000_QL80_.jpg",
     "price": 11,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
  
@@ -828,13 +828,13 @@ let products = [
     "photo": "https://www.dewalt.com.au/EMEA/PRODUCT/IMAGES/HIRES/DW2166/DW2166_1.jpg?resize=530x530",
     "price": 28,
     "details": {
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -848,13 +848,13 @@ let products = [
     "price": 46,
     "details": {
 
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -868,13 +868,13 @@ let products = [
     "price": 46,
     "details": {
       
-      "Power supply": "Battery",
-      "Number of speeds": "1",
+      "PowerSupply": "Battery",
+      "Speeds": "1",
       "Voltage": "3V",
       "Amperage": "0.1A",
       "Material": "Plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -888,13 +888,13 @@ let products = [
     "price": 132,
     "details": {
       
-      "Power supply": "Battery",
-      "Number of speeds": "1",
+      "PowerSupply": "Battery",
+      "Speeds": "1",
       "Voltage": "3V",
       "Amperage": "0.1A",
       "Material": "Plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -909,13 +909,13 @@ let products = [
     "details": 
     {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "8 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "8 x 4 x 2 inches"
     }
   },
   {
@@ -928,13 +928,13 @@ let products = [
     "photo": "https://cdn11.bigcommerce.com/s-6sy7my5b50/images/stencil/1280x1280/products/5847/23151/file-input-1667320096957__86225.1667320098.1280.1280__07838.1678114342.jpg?c=1",
     "price": 15,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "8 x 4 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "8 x 4 x 2 inches"
     }
   },
   {
@@ -948,13 +948,13 @@ let products = [
     "price": 0.06,
     "details": {
   
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Galvanized",
-      "Item weight": "0.1 oz.",
-      "Item dimensions": "1 x 0.25 x 0.25 inches"
+      "ItemWeight": "0.1 oz.",
+      "ItemDimensions": "1 x 0.25 x 0.25 inches"
     }
   },
   {
@@ -967,13 +967,13 @@ let products = [
     "photo": "https://s8580.pcdn.co/wp-content/uploads/2015/01/Stanley-58-112-Steel-Nail-Set-324x324.jpg",
     "price": 0.03,
     "details": {
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "0.05 oz.",
-      "Item dimensions": "1 x 0.125 x 0.125 inches"
+      "ItemWeight": "0.05 oz.",
+      "ItemDimensions": "1 x 0.125 x 0.125 inches"
     }
   },
   {
@@ -987,13 +987,13 @@ let products = [
     "price": 0.07,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1",
       "Voltage": "N/A (if electric)",
       "Amperage": "N/A (if electric)",
       "Material": "Steel",
-      "Item weight": "0.1 oz.",
-      "Item dimensions": "1 x 0.25 x 0.25 inches"
+      "ItemWeight": "0.1 oz.",
+      "ItemDimensions": "1 x 0.25 x 0.25 inches"
     }
   },
   {
@@ -1007,13 +1007,13 @@ let products = [
     "price": 0.20,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "0.2 oz.",
-      "Item dimensions": "1 x 0.5 x 0.5 inches"
+      "ItemWeight": "0.2 oz.",
+      "ItemDimensions": "1 x 0.5 x 0.5 inches"
     }
   },
   {
@@ -1027,13 +1027,13 @@ let products = [
     "price": 0.50,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1",
       "Voltage": "N/A (if electric)",
       "Amperage": "N/A (if electric)",
       "Material": "Steel",
-      "Item weight": "0.5 oz.",
-      "Item dimensions": "2 x 0.75 x 0.75 inches"
+      "ItemWeight": "0.5 oz.",
+      "ItemDimensions": "2 x 0.75 x 0.75 inches"
     }
   },
   {
@@ -1047,13 +1047,13 @@ let products = [
     "price": 0.10,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Nylon",
-      "Item weight": "0.1 oz.",
-      "Item dimensions": "1 x 0.25 x 0.25 inches"
+      "ItemWeight": "0.1 oz.",
+      "ItemDimensions": "1 x 0.25 x 0.25 inches"
     }
   },
   {
@@ -1067,13 +1067,13 @@ let products = [
     "price": 0.10,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Nylon",
-      "Item weight": "0.01 oz.",
-      "Item dimensions": "6 x 0.25 x 0.25 inches"
+      "ItemWeight": "0.01 oz.",
+      "ItemDimensions": "6 x 0.25 x 0.25 inches"
     }
   },
   {
@@ -1087,13 +1087,13 @@ let products = [
     "price": 40,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Water-based latex",
-      "Item weight": "1 gallon",
-      "Item dimensions": "12 x 12 x 6 inches"
+      "ItemWeight": "1 gallon",
+      "ItemDimensions": "12 x 12 x 6 inches"
     }
   },
   {
@@ -1107,13 +1107,13 @@ let products = [
     "price": 13,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Foam or fabric",
-      "Item weight": "0.5 lbs.",
-      "Item dimensions": "9 x 4 x 2 inches"
+      "ItemWeight": "0.5 lbs.",
+      "ItemDimensions": "9 x 4 x 2 inches"
     }
   },
   {
@@ -1127,13 +1127,13 @@ let products = [
     "price": 17,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Bristles: Natural or synthetic; Handle: Wood or plastic",
-      "Item weight": "0.25 lbs.",
-      "Item dimensions": "9 x 4 x 2 inches"
+      "ItemWeight": "0.25 lbs.",
+      "ItemDimensions": "9 x 4 x 2 inches"
     }
   },
   {
@@ -1147,13 +1147,13 @@ let products = [
     "price": 5,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic",
-      "Item weight": "0.5 lbs.",
-      "Item dimensions": "12 x 6 x 3 inches"
+      "ItemWeight": "0.5 lbs.",
+      "ItemDimensions": "12 x 6 x 3 inches"
     }
   },
   {
@@ -1167,13 +1167,13 @@ let products = [
     "price": 7,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Crepe paper with adhesive backing",
-      "Item weight": "0.1 lbs",
-      "Item dimensions": "60 yds. x 1.88 inches"
+      "ItemWeight": "0.1 lbs",
+      "ItemDimensions": "60 yds. x 1.88 inches"
     }
   },
   {
@@ -1187,13 +1187,13 @@ let products = [
     "price": 5,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Aerosol paint",
-      "Item weight": "1 lb.",
-      "Item dimensions": "12 x 6 x 4 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "12 x 6 x 4 inches"
     }
   },
   {
@@ -1207,13 +1207,13 @@ let products = [
     "price": 3,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Metal",
-      "Item weight": "0.1 lb.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "0.1 lb.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -1227,13 +1227,13 @@ let products = [
     "price": 1,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Copper conductor with insulation",
-      "Item weight": "0.5 lbs. per 100 ft.",
-      "Item dimensions": "100 ft. x 12 AWG"
+      "ItemWeight": "0.5 lbs. per 100 ft.",
+      "ItemDimensions": "100 ft. x 12 AWG"
     }
   },
   {
@@ -1247,13 +1247,13 @@ let products = [
     "price": 7,
     "details": {
       "Item name": "Leviton Light Switch",
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "15A",
       "Material": "Plastic and metal",
-      "Item weight": "0.1 lb.",
-      "Item dimensions": "4 x 2 x 1 inches"
+      "ItemWeight": "0.1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
     }
   },
   {
@@ -1267,13 +1267,13 @@ let products = [
     "price": 5,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "15A",
       "Material": "Plastic and metal",
-      "Item weight": "0.25 lbs.",
-      "Item dimensions": "4 x 2 x 1 inches"
+      "ItemWeight": "0.25 lbs.",
+      "ItemDimensions": "4 x 2 x 1 inches"
     }
   },
   {
@@ -1287,13 +1287,13 @@ let products = [
     "price": 0.03,
     "details": {
   
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "15A",
       "Material": "Plastic and metal",
-      "Item weight": "0.1 lb.",
-      "Item dimensions": "1 x 0.5 x 0.5 inches"
+      "ItemWeight": "0.1 lb.",
+      "ItemDimensions": "1 x 0.5 x 0.5 inches"
     }
   },
   {
@@ -1307,13 +1307,13 @@ let products = [
     "price": 6,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "15A",
       "Material": "Plastic and metal",
-      "Item weight": "0.25 lbs.",
-      "Item dimensions": "4 x 2 x 1 inches"
+      "ItemWeight": "0.25 lbs.",
+      "ItemDimensions": "4 x 2 x 1 inches"
     }
   },
   {
@@ -1327,13 +1327,13 @@ let products = [
     "price": 7,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Vinyl",
-      "Item weight": "0.1 lb.",
-      "Item dimensions": "60 yds. x 0.75 inches"
+      "ItemWeight": "0.1 lb.",
+      "ItemDimensions": "60 yds. x 0.75 inches"
     }
   },
   {
@@ -1347,13 +1347,13 @@ let products = [
     "price": 13,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "0.5 lbs.",
-      "Item dimensions": "6 x 4 x 2 inches"
+      "ItemWeight": "0.5 lbs.",
+      "ItemDimensions": "6 x 4 x 2 inches"
     }
   },
   {
@@ -1367,13 +1367,13 @@ let products = [
     "price": 0.05,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1",
       "Voltage": "N/A (if electric)",
       "Amperage": "N/A (if electric)",
       "Material": "Stainless steel",
-      "Item weight": "0.01 oz.",
-      "Item dimensions": "1 x 0.25 x 0.25 inches"
+      "ItemWeight": "0.01 oz.",
+      "ItemDimensions": "1 x 0.25 x 0.25 inches"
     }
   },
   {
@@ -1387,13 +1387,13 @@ let products = [
     "price": 0.06,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "0.02 oz.",
-      "Item dimensions": "1 x 0.25 x 0.25 inches"
+      "ItemWeight": "0.02 oz.",
+      "ItemDimensions": "1 x 0.25 x 0.25 inches"
     }
   },
   {
@@ -1407,13 +1407,13 @@ let products = [
     "price": 0.07,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Sandpaper",
-      "Item weight": "0.1 oz.",
-      "Item dimensions": "9 x 4 x 1 inches"
+      "ItemWeight": "0.1 oz.",
+      "ItemDimensions": "9 x 4 x 1 inches"
     }
   },
   {
@@ -1427,13 +1427,13 @@ let products = [
     "price": 11,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Foam or fabric",
-      "Item weight": "0.5 lbs.",
-      "Item dimensions": "9 x 4 x 2 inches"
+      "ItemWeight": "0.5 lbs.",
+      "ItemDimensions": "9 x 4 x 2 inches"
     }
   },
   {
@@ -1447,13 +1447,13 @@ let products = [
     "price": 0.9,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Copper conductor with insulation",
-      "Item weight": "0.5 lbs. per 100 ft.",
-      "Item dimensions": "100 ft. x 12 AWG"
+      "ItemWeight": "0.5 lbs. per 100 ft.",
+      "ItemDimensions": "100 ft. x 12 AWG"
     }
   },
   {
@@ -1467,13 +1467,13 @@ let products = [
     "price": 8,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic or metal",
-      "Item weight": "0.1 lbs.",
-      "Item dimensions": "4 x 4 x 2 inches"
+      "ItemWeight": "0.1 lbs.",
+      "ItemDimensions": "4 x 4 x 2 inches"
     }
   },
   {
@@ -1487,13 +1487,13 @@ let products = [
     "price": 0.09,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel",
-      "Item weight": "0.01 oz.",
-      "Item dimensions": "1/2 x 1/4 x 1/4 inches"
+      "ItemWeight": "0.01 oz.",
+      "ItemDimensions": "1/2 x 1/4 x 1/4 inches"
     }
   },
   {
@@ -1507,13 +1507,13 @@ let products = [
     "price": 0.06,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1",
       "Voltage": "N/A (if electric)",
       "Amperage": "N/A (if electric)",
       "Material": "Steel",
-      "Item weight": "0.01 oz.",
-      "Item dimensions": "1 x 1/4 x 1/4 inches"
+      "ItemWeight": "0.01 oz.",
+      "ItemDimensions": "1 x 1/4 x 1/4 inches"
     }
   },
   {
@@ -1527,13 +1527,13 @@ let products = [
     "price": 13,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Aerosol paint",
-      "Item weight": "1 lb.",
-      "Item dimensions": "12 x 6 x 4 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "12 x 6 x 4 inches"
     }
   },
   {
@@ -1547,13 +1547,13 @@ let products = [
     "price": 7,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -1567,13 +1567,13 @@ let products = [
     "price": 13,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "15A",
       "Material": "Plastic and metal",
-      "Item weight": "0.5 lbs.",
-      "Item dimensions": "12 x 6 x 2 inches"
+      "ItemWeight": "0.5 lbs.",
+      "ItemDimensions": "12 x 6 x 2 inches"
     }
   },
   {
@@ -1587,13 +1587,13 @@ let products = [
     "price": 17,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1",
+      "PowerSupply": "Electric",
+      "Speeds": "1",
       "Voltage": "120V",
       "Amperage": "15A",
       "Material": "Plastic and copper",
-      "Item weight": "1 lb.",
-      "Item dimensions": "25 ft. x 12 AWG"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "25 ft. x 12 AWG"
     }
   },
   {
@@ -1607,13 +1607,13 @@ let products = [
     "price": 999,
     "details": {
      
-      "Power supply": "Gasoline",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Gasoline",
+      "Speeds": "1-2",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "20-50 lbs.",
-      "Item dimensions": "36 x 24 x 12 inches"
+      "ItemWeight": "20-50 lbs.",
+      "ItemDimensions": "36 x 24 x 12 inches"
     }
   },
   {
@@ -1627,13 +1627,13 @@ let products = [
     "price": 350,
     "details": {
       
-      "Power supply": "Gasoline or electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Gasoline or electric",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Steel and plastic",
-      "Item weight": "5-10 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "5-10 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -1647,13 +1647,13 @@ let products = [
     "price": 699,
     "details": {
       
-      "Power supply": "Gasoline",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Gasoline",
+      "Speeds": "1-2",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "10-20 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "10-20 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -1667,13 +1667,13 @@ let products = [
     "price": 180,
     "details": {
       
-      "Power supply": "Electric or cordless",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric or cordless",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Steel and plastic",
-      "Item weight": "5-10 lbs.",
-      "Item dimensions": "36 x 12 x 6 inches"
+      "ItemWeight": "5-10 lbs.",
+      "ItemDimensions": "36 x 12 x 6 inches"
     }
   },
   {
@@ -1687,13 +1687,13 @@ let products = [
     "price": 76,
     "details": {
      
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "24 x 6 x 2 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "24 x 6 x 2 inches"
     }
   },
   {
@@ -1707,13 +1707,13 @@ let products = [
     "price": 50,
     "details": {
       
-      "Power supply": "Water",
-      "Number of speeds": "1",
+      "PowerSupply": "Water",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Hybrid polymer",
-      "Item weight": "1-2 lbs. per 25 feet",
-      "Item dimensions": "25 ft. x 5/8 inches"
+      "ItemWeight": "1-2 lbs. per 25 feet",
+      "ItemDimensions": "25 ft. x 5/8 inches"
     }
   },
   {
@@ -1723,17 +1723,17 @@ let products = [
     "subcategory": "Irrigation and Pool",
     "stock": 10,
     "description": "Automatic sprinkler system for efficient lawn and garden watering.",
-    "photo": "https://images.thdstatic.com/productImages/a1ff797a-abfb-40bc-8c03-da0e3d7c842b/svn/blacks-rain-bird-rotary-sprinklers-32sa-c3_600.jpg",
+    "photo": "https://acdn.mitiendanube.com/stores/198/737/products/aspersor-81441-0bae53f72eea73798b16402959917143-640-0.png",
     "price": 1300,
     "details": {
       
-      "Power supply": "Water",
-      "Number of speeds": "1",
+      "PowerSupply": "Water",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic",
-      "Item weight": "10-20 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "10-20 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -1743,17 +1743,17 @@ let products = [
     "subcategory": "Irrigation and Pool",
     "stock": 8,
     "description": "Robotic pool cleaner for keeping your swimming pool crystal clear.",
-    "photo": "https://marvel-b1-cdn.bc0a.com/f00000000228478/cdn.fluidrausa.com/-/media/media-database/products/cleaners/polaris-p39/p39_uw_1.jpg?h=3264&iar=0&w=3264&rev=2725695edef64bf3ad0b7d03880ac4b7",
+    "photo": "https://www.pentair.com/content/dam/extranet/nam/pentair-pool/residential/cleaners/kreepy-krauly/kreepy-krauly-sand-shark/images/kreepy-krauly-sand-shark.png.thumb.1280.1280.jpg",
     "price": 100,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric",
+      "Speeds": "1-2",
       "Voltage": "120V",
       "Amperage": "10A",
       "Material": "Plastic",
-      "Item weight": "10-20 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "10-20 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -1767,13 +1767,13 @@ let products = [
     "price": 20,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic or metal",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -1787,13 +1787,13 @@ let products = [
     "price": 33,
     "details": {
       
-      "Power supply": "Water",
-      "Number of speeds": "1",
+      "PowerSupply": "Water",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -1803,17 +1803,17 @@ let products = [
     "subcategory": "Irrigation and Pool",
     "stock": 9,
     "description": "Durable pool cover to protect your swimming pool from debris and leaves.",
-    "photo": "https://falabella.scene7.com/is/image/Falabella/gsc_117708239_1864943_7?wid=800&hei=800&qlt=70",
+    "photo": "https://media.diy.com/is/image/Kingfisher/bestway-circular-swimming-pool-cover-l-3-05m-x-w-3-05m~6942138951639_01c_bq?$MOB_PREV$&$width=618&$height=618",
     "price": 23,
     "details": {
       
-      "Power supply": "N/A",
-      "Number of speeds": "1",
+      "PowerSupply": "N/A",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Vinyl",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -1827,13 +1827,13 @@ let products = [
     "price": 350,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric",
+      "Speeds": "1-2",
       "Voltage": "120V",
       "Amperage": "10A",
       "Material": "Plastic and metal",
-      "Item weight": "10-20 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "10-20 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -1847,13 +1847,13 @@ let products = [
     "price": 200,
     "details": {
       
-      "Power supply": "Electric or cordless",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric or cordless",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Plastic and metal",
-      "Item weight": "5-10 lbs.",
-      "Item dimensions": "36 x 12 x 6 inches"
+      "ItemWeight": "5-10 lbs.",
+      "ItemDimensions": "36 x 12 x 6 inches"
     }
   },
   {
@@ -1867,13 +1867,13 @@ let products = [
     "price": 270,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Steel and plastic",
-      "Item weight": "20-50 lbs.",
-      "Item dimensions": "36 x 24 x 12 inches"
+      "ItemWeight": "20-50 lbs.",
+      "ItemDimensions": "36 x 24 x 12 inches"
     }
   },
   {
@@ -1887,13 +1887,13 @@ let products = [
     "price": 130,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "20-50 lbs.",
-      "Item dimensions": "36 x 24 x 12 inches"
+      "ItemWeight": "20-50 lbs.",
+      "ItemDimensions": "36 x 24 x 12 inches"
     }
   },
   {
@@ -1907,13 +1907,13 @@ let products = [
     "price": 200,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "20-50 lbs.",
-      "Item dimensions": "36 x 24 x 12 inches"
+      "ItemWeight": "20-50 lbs.",
+      "ItemDimensions": "36 x 24 x 12 inches"
     }
   },
   {
@@ -1927,13 +1927,13 @@ let products = [
     "price": 130,
     "details": {
     
-      "Power supply": "Electric or cordless",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric or cordless",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Steel and plastic",
-      "Item weight": "5-10 lbs.",
-      "Item dimensions": "36 x 12 x 6 inches"
+      "ItemWeight": "5-10 lbs.",
+      "ItemDimensions": "36 x 12 x 6 inches"
     }
   },
   {
@@ -1947,13 +1947,13 @@ let products = [
     "price": 200,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric",
+      "Speeds": "1-2",
       "Voltage": "120V",
       "Amperage": "10A",
       "Material": "Steel and plastic",
-      "Item weight": "5-10 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "5-10 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -1967,13 +1967,13 @@ let products = [
     "price": 200,
     "details": {
       
-      "Power supply": "Gas or electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Gas or electric",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Steel and plastic",
-      "Item weight": "5-10 lbs.",
-      "Item dimensions": "36 x 12 x 6 inches"
+      "ItemWeight": "5-10 lbs.",
+      "ItemDimensions": "36 x 12 x 6 inches"
     }
   },
   {
@@ -1987,13 +1987,13 @@ let products = [
     "price": 30,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -2007,13 +2007,13 @@ let products = [
     "price": 20,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -2027,13 +2027,13 @@ let products = [
     "price": 30,
     "details": {
      
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Steel and plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -2047,13 +2047,13 @@ let products = [
     "price": 23,
     "details": {
       
-      "Power supply": "Manual or electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Manual or electric",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Plastic",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -2067,13 +2067,13 @@ let products = [
     "price": 300,
     "details": {
       
-      "Power supply": "Electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Electric",
+      "Speeds": "1-2",
       "Voltage": "120V",
       "Amperage": "10A",
       "Material": "Plastic",
-      "Item weight": "10-20 lbs.",
-      "Item dimensions": "24 x 12 x 6 inches"
+      "ItemWeight": "10-20 lbs.",
+      "ItemDimensions": "24 x 12 x 6 inches"
     }
   },
   {
@@ -2087,13 +2087,13 @@ let products = [
     "price": 22,
     "details": {
       
-      "Power supply": "Water",
-      "Number of speeds": "1",
+      "PowerSupply": "Water",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Rubber",
-      "Item weight": "1-2 lbs. per 25 feet",
-      "Item dimensions": "25 ft. x 5/8 inches"
+      "ItemWeight": "1-2 lbs. per 25 feet",
+      "ItemDimensions": "25 ft. x 5/8 inches"
     }
   },
   {
@@ -2107,13 +2107,13 @@ let products = [
     "price": 18,
     "details": {
       
-      "Power supply": "Manual",
-      "Number of speeds": "1",
+      "PowerSupply": "Manual",
+      "Speeds": "1",
       "Voltage": "N/A",
       "Amperage": "N/A",
       "Material": "Plastic and mesh",
-      "Item weight": "1-2 lbs.",
-      "Item dimensions": "12 x 6 x 6 inches"
+      "ItemWeight": "1-2 lbs.",
+      "ItemDimensions": "12 x 6 x 6 inches"
     }
   },
   {
@@ -2127,13 +2127,224 @@ let products = [
     "price": 33,
     "details": {
       
-      "Power supply": "Battery or electric",
-      "Number of speeds": "1-2",
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
       "Voltage": "120V (if electric)",
       "Amperage": "10A (if electric)",
       "Material": "Plastic",
-      "Item weight": "1 lb.",
-      "Item dimensions": "4 x 2 x 1 inches"
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  //--------------------nuevos
+  {
+    "name": "Cordless Drill",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Drilling",
+    "stock": 30,
+    "description":
+    "The Festool cordless drill is a high-quality and versatile tool designed for professionals and DIY enthusiasts. Its ergonomic design and powerful motor make it ideal for drilling holes and driving screws into various materials, including wood, metal, and concrete. Festool is renowned for its precision and durability, ensuring that this drill will deliver consistent performance for a wide range of projects. The long-lasting lithium-ion battery provides reliable cordless operation, allowing users to work without limitations. Whether you're constructing intricate furniture or handling demanding construction tasks, the Festool cordless drill is the perfect choice.",
+    "photo": "https://assets.leevalley.com/Size4/10090/zc576439-festool-c-18-cordless-drill-basic-f-0001.jpg",
+    "price": 150,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Circular Saw",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Cutting",
+    "stock": 25,
+    "description":
+    "The Festool circular saw is a precision cutting tool designed for professional woodworkers and craftsmen. Its powerful motor and sharp blade enable accurate and efficient cuts in various wood materials. The saw features advanced dust extraction technology, keeping the workspace clean and enhancing visibility during cutting tasks. Festool's commitment to quality is evident in this saw's construction, ensuring durability and longevity. Whether you're working on carpentry projects or fine woodworking, the Festool circular saw delivers unmatched performance and reliability.",
+    "photo": "https://img.misterworker.com/en-us/46655-thickbox_default/circular-saw-hk-85-eb-plus-1900w.jpg",
+    "price": 250,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Random Orbital Sander",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Sanding",
+    "stock": 20,
+    "description":
+    "The Festool random orbital sander is a high-performance sanding tool suitable for woodworking, metalworking, and automotive applications. Its innovative design ensures a swirl-free finish on various surfaces. With variable speed control and efficient dust extraction, this sander provides smooth operation and a cleaner workspace. Festool's precision engineering guarantees optimal sanding results, making it a top choice for professionals and hobbyists alike.",
+    "photo": "https://www.highlandwoodworking.com/images/products/detail/724702d.jpg",
+    "price": 180,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Track Saw",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Cutting",
+    "stock": 15,
+    "description":
+    "The Festool track saw is a versatile and precise cutting tool designed for making straight and accurate cuts in various materials. Its guide rail system ensures stability and eliminates the need for additional measuring and marking. With a powerful motor and a sharp blade, this saw delivers splinter-free cuts in wood, laminate, and other sheet materials. Festool's track saw is a favorite among carpenters and DIY enthusiasts for its ease of use and exceptional results.",
+    "photo": "https://m.media-amazon.com/images/I/71HJHVR7JFL._AC_UF894,1000_QL80_.jpg",
+    "price": 350,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Router",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Routing",
+    "stock": 18,
+    "description":
+    "The Festool router is a high-performance woodworking tool suitable for a wide range of routing tasks. Its powerful motor and precision collets allow for clean and accurate cuts, shaping edges, and creating intricate designs. With adjustable speed and depth settings, this router provides versatility for various applications. Festool's attention to detail and ergonomic design make this router a top choice for professionals and woodworking enthusiasts.",
+    "photo": "https://www.highlandwoodworking.com/ProductImages/festool/Router/727637-01d.jpg",
+    "price": 280,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Dust Extractor",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Dust Collection",
+    "stock": 12,
+    "description":
+    "The Festool dust extractor is a powerful and efficient dust collection system designed to keep the workspace clean and safe. It features a high suction capacity and HEPA filtration, capturing fine dust particles and ensuring a healthier working environment. With automatic tool activation and adjustable suction control, this extractor is compatible with various power tools, enhancing their performance and extending their lifespan. Festool's dust extractor is a must-have for professionals who prioritize cleanliness and air quality in their workshops.",
+    "photo": "https://m.media-amazon.com/images/I/81Em5m2pFkL.jpg",
+    "price": 400,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Compound Miter Saw",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Cutting",
+    "stock": 10,
+    "description":
+    "The Festool compound miter saw is a precision cutting tool designed for angled and beveled cuts in various materials. Its dual bevel capability allows for complex cuts, making it an essential tool for trim work, furniture making, and framing. The saw features a laser guide for accuracy and a dust collection system to maintain a clean workspace. Festool's miter saw combines power and precision, ensuring seamless and professional results for woodworking projects.",
+    "photo": "https://m.media-amazon.com/images/I/6124UYl-lbS.jpg",
+    "price": 550,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Rotary Hammer Drill",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Drilling",
+    "stock": 8,
+    "description":
+    "The Festool rotary hammer drill is a heavy-duty drilling and chiseling tool designed for masonry and concrete applications. Its powerful motor and pneumatic hammering action deliver efficient drilling and chiseling performance. The drill features an anti-vibration system for comfortable use and a variable speed trigger for precise control. Festool's rotary hammer drill is ideal for professionals in construction and renovation projects, ensuring fast and accurate drilling in tough materials.",
+    "photo": "https://www.kelvinpowertools.com/img/shp/FES-BHC18Li-BASIC1.jpg",
+    "price": 650,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Domino Joiner",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Joinery",
+    "stock": 6,
+    "description":
+    "The Festool Domino joiner is a revolutionary tool for creating strong and precise mortise and tenon joints. It uses specialized tenons and an oscillating cutter to create perfect joints quickly and easily. The joiner features adjustable mortise width and depth, allowing for customization according to project requirements. Festool's Domino joiner is a favorite among cabinetmakers and woodworkers for its speed, accuracy, and versatility in joinery work.",
+    "photo": "https://m.media-amazon.com/images/I/61AImhWewIL.jpg",
+    "price": 900,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
+    }
+  },
+  {
+    "name": "Router Table",
+    "brand": "Festool",
+    "category": "Power Tools",
+    "subcategory": "Routing",
+    "stock": 5,
+    "description":
+    "The Festool router table provides a stable and versatile platform for woodworking tasks that require precision routing. It features a large work surface, adjustable fence, and multiple T-slots for securing workpieces and accessories. The table is compatible with Festool routers and many other router brands, offering flexibility for various applications. Festool's router table is a valuable addition to any woodworking workshop, enhancing accuracy and safety in routing operations.",
+    "photo": "https://assets.leevalley.com/Size4/10100/ZTP00112-cms-ge-router-table-f-01-r.jpg",
+    "price": 400,
+    "details": {
+      
+      "PowerSupply": "Battery or electric",
+      "Speeds": "1-2",
+      "Voltage": "120V (if electric)",
+      "Amperage": "10A (if electric)",
+      "Material": "Plastic",
+      "ItemWeight": "1 lb.",
+      "ItemDimensions": "4 x 2 x 1 inches"
     }
   }
 ];
