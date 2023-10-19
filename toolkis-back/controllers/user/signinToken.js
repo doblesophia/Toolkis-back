@@ -6,13 +6,12 @@ import User from "../../models/User.js";
     try {
        
         let user = await User.findOneAndUpdate({ email: req.user.email }, { online: true }, { new: true });
-        
-        
 
         const userData = {
             email: user.email,
             photo: user.photo,
             role: user.role,
+            token: req.token,
             
         };
 

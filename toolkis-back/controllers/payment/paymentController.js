@@ -21,7 +21,7 @@ const sendEmailToCustomer = (body) => {
       to: "manupebay@hotmail.com",
       subject: 'Comprobante de compra',
       text: `Thank you for your purchase! 
-      We´ve attached the details down below:
+              We´ve attached the details down below:
               Mail ${body?.payer.email}
               items:
               ${body.additional_info.items?.map(item => 
