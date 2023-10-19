@@ -12,15 +12,25 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const sendEmailToCustomer = (payer) => {
-  console.log(payer, "informacion payer")
-  if (payer) {
+const sendEmailToCustomer = (body) => {
+  console.log("aca empieza",body, "informacion payer")
+  if (body.payer) {
 
     const mailOptions = {
       from: 'manuelpebay@gmail.com',
       to: "manupebay@hotmail.com",
       subject: 'Comprobante de compra',
-      text: 'Contenido del correo electrónico',
+      text: `Thank you for your purchase! 
+      We´ve attached the details down below:
+              Mail ${body?.payer.email}
+              items:
+              ${body.additional_info.items?.map(item => 
+                `${item?.title} : 
+                 Quantity: ${item?.quantity}
+                 Unit price: $ ${item?.unit_price}
+                 Total product price:$ ${item?.unit_price * item.quantity}
+                  `  ,)}
+                Total:$ ${body.additional_info.items?.reduce((acc,item)=> acc + (item?.unit_price * item?.quantity),0)}`,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
@@ -53,9 +63,9 @@ export const createOrder = async (req, res) => {
     const preference = {
       items,
       back_urls: {
-        success: 'http://localhost:5173/post-payment',
+        success: 'http://localhost:5173/succesPayment',
       },
-      notification_url: 'https://2a0d-2803-c180-2002-63e3-79a0-6519-7a5c-136b.ngrok.io/payment/webhook',
+      notification_url: 'https://239a-181-166-126-235.ngrok.io/payment/webhook',
       payer: {
         phone: { area_code: '123', number: 4567890 },
         address: { street_name: 'Calle Ejemplo', street_number: 123 },
@@ -70,7 +80,6 @@ export const createOrder = async (req, res) => {
 
     const result = await mercadopago.preferences.create(preference);
 
-    console.log(result);
     res.json(result.body);
   } catch (error) {
     console.error(error);
@@ -79,19 +88,15 @@ export const createOrder = async (req, res) => {
 };
 
 export const receiveWebhook = async (req, res) => {
-  console.log(req.query);
   try {
     //   // Realiza la verificación y procesamiento de la notificación de compra aquí
     const payment = req.query;
     //   console.log("Webhook recibido:", payment);
 
     if (payment.type === 'payment') {
-      console.log(payment["data.id"], "será este el error?");
       const data = await mercadopago.payment.findById(payment["data.id"])
-      console.log(data)
-
       //     // Si el pago se ha creado, entonces puedes enviar el correo electrónico
-    await sendEmailToCustomer(data.body.payer);
+    await sendEmailToCustomer(data.body);
     }
 
     res.sendStatus(200);
